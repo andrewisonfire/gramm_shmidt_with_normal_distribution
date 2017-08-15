@@ -127,7 +127,7 @@ if(tmp==0)
 return ort_A;//ortogonal_noise_vector;
 }else
 {
-cout<<"this shit is real crap, nigga"<<endl;
+cout<<"something is going wrong"<<endl;
 }
 }
 //////////////////////////////////////////////////////////////////////////////
