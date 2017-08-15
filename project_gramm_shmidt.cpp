@@ -116,7 +116,7 @@ ort_A=gramm_shmidt(A);                                                        //
 int tmp=0;
 for (int i=0;i<DIM;++i)
 	for (int j=i+1;j<DIM;++j)
-if(abs(dot_product(ort_A[i],ort_A[j]))>epsylon)
+if(abs(dot_product(ort_A[i],ort_A[j]))>epsylon)				// Orthogonalization check
 {
 ++tmp;
 break;
